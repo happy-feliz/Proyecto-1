@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: Poppins;
+    font-size: 1em;
+    /* background: radial-gradient(circle at bottom, rgb(170, 170, 170), rgb(242, 242, 242)); */
+}
+
+
+body {
+    background: radial-gradient(circle at top, #ab6bc5, #44b1ff);
+    height: 1vh;
+}
+
+main{
+    grid-template: 20% 1fr / 1fr;
+}
+
+.top-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(242, 242, 242);
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 60%;
+    height: 20rem;
+    box-shadow: 1px 1px 6px 1px rgb(51 48 48 / 45%);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-body h2{
+    width: 100%;
+    text-align: center;
+}
+
+.card-body p{
+    width: 75%;
+    padding-left: 3rem;
+}
+
+.container{
+    width: 50%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-flow: row-reverse;
+    flex-shrink: 3;
+}
+
+.card-image{
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 1px 1px 6px 1px rgb(51 48 48 / 62%);
+    position: relative;
+    left: -5%;
+    object-fit: cover;
+    border-radius: 4px;
+}
